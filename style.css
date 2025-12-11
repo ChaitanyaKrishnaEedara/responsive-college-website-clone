@@ -1,0 +1,20 @@
+#gototop{
+	font-size:40px;
+	background-color:red;
+	position:fixed;
+	right:20px;
+	bottom:20px;
+	z-index:10;
+}
+#gototop:hover{
+	background-color:blue;
+}
+
+.footerHeroImage{
+	background-image:linear-gradient(to bottom, rgba(15, 49, 135, 0.9), rgba(15, 49, 135, 0.9), rgba(15, 49, 135, 0.9)), url("./images/worldmap.png");
+	height: 100%;
+	width:100%;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size:cover;
+}

@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="./style.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+		<style>
+			
+			<!--
+			.logo-modal-size{
+				width:70%;
+				max-width:800px;
+			}
+			body{
+				background:;
+			}
+			-->
+			#slider img {
+				width: 100vw;
+				height: 50vh;
+				object-fit:contain;
+			}
+			#slider{
+				background-color:rgba(0, 0, 0, 0.3);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="modal" id="logo-modal">
+			<div class="modal-dialog modal-xl">		<!-- .modal-sm, .modal-lg, .modal-xl, .modal-fullscreen, .logo-modal-size -->
+				<div class="modal-content">
+					<div class="modal-body">
+						<img src="./images/srkit-logo.png" width=100% height=100%>
+					</div>
+				</div>
+			</div>
+		</div>
+		<header>
+			<a id="gototop" href="#page-top" class="bi bi-arrow-up px-3 py-2 border rounded text-light"></a>
+			<div class="container-fluid" id="page-top">
+				<div class="row bg-primary">
+					<div class="col-lg-7 bg-danger text-white">
+						<h2>Welcome to SRK Institute Of Technology!</h2>
+					</div>
+					<div class="col-lg-5" id="nav1Items">
+						<ul class="nav">
+							<li class="nav-list"> <a href="./contactus.html" class="nav-link text-white">Contact Us</a></li>
+							<li class="nav-list"> <a href="./documents/Mandatory Disclosure.pdf" class="nav-link text-white">Mandatory Disclosure</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-1">
+					
+					</div>
+					<div class="col-sm-10">
+						<img src="./images/srkit-logo.png" width=100% height=100% style="cursor:pointer" data-target="#logo-modal" data-toggle="modal">
+					</div>
+					<div class="col-sm-1">
+					
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 px-0">
+					</div>
+				</div>
+			</div>
+		</header>
+		<nav class="navbar navbar-expand-md navbar-dark bg-danger sticky-top" id="nav2">
+			<button type="button" class="navbar-toggler text-light" data-toggle="collapse" data-target="#menu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="menu">
+				<ol class="navbar-nav">
+					<li class="nav-item"><a href="./home.html" class="nav-link text-white">Home</a></li>
+					<li class="nav-item"><a href="./about.html" class="nav-link text-white">About</a></li>
+					<li class="nav-item"><a href="./mous.html" class="nav-link text-white">MOUs</a></li>
+					<li class="nav-item"><a href="./gallery.html" class="nav-link text-white">Gallery</a></li>
+				</ol>
+			</div>
+		</nav>
+		
+		<div id="slider" class="carousel slide" data-ride="carousel" data-interval="5000">
+			<ul class="carousel-indicators">
+				<li data-target="#slider" data-slide-to="0" class="active"></li>
+				<li data-target="#slider" data-slide-to="1"></li>
+				<li data-target="#slider" data-slide-to="2"></li>
+			</ul>
+			
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="./images/autonomous1.jpeg" alt="autonomous">
+				</div>
+				<div class="carousel-item">
+					<img src="./images/blockA-frontview.png" alt="campus view">
+				</div>
+				<div class="carousel-item">
+					<img src="./images/blockA-sideview.jpg" alt="campus view">
+				</div>
+			</div>
+			
+			<a class="carousel-control-prev" href="#slider" data-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+			</a>
+			<a class="carousel-control-next" href="#slider" data-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			</a>
+		</div>
+		
+		<div class="container my-5">
+			<div class="row">
+				<div class="col-md-5">
+					<div class="card border-0">
+						<div class="card-body">
+							<img src="./images/Chairman_Sir.jpg" width=100%>
+						</div>
+						<div class="card-footer border-1 border-primary">
+							<h3><center> Sri. B.S. Appa Rao </center></h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-7">
+					<h1> CHAIRMAN'S MESSAGE </h1>
+					<p>
+						SRK Institute of Technology was established in 2007 under the eminent guidance of the Sri. B. S. Appa Rao. He desired to build a knowledge society for the benefit of students hailing from rural and semi urban regions of Andhra Pradesh. His association with professional courses such as Engineering, Medical and Pharmacy in Andhra Pradesh spans over three decades. He dreams of alleviating the status of educational institutions making them Centers of Excellence on par with IITs and deemed universities. He envisages establishing Research and Development wing for inculcating scientific temper, humanism and the spirit of equity and reform among the student community
+					</p>
+					<button type="button" class="btn btn-light border b-2"> Read more </button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="jumbotron">
+			<div class="row">
+				<div class="col-md-12">
+					<h2><center> MOU's </center></h2>
+				</div>
+			</div>
+			<div class="row margin my-5 mouRow">
+				<div class="col-12 col-sm-6 col-md-4 col-lg-2">
+					<div class="card my-1">
+						<div class="card-body">
+							<img src="./images/mou1.jpg" width=100% height=100%>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-md-4 col-lg-2">
+					<div class="card my-1">
+						<div class="card-body">
+							<img src="./images/mou2.jpg" width=100% height=100%>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-md-4 col-lg-2">
+					<div class="card my-1">
+						<div class="card-body">
+							<img src="./images/mou3.jpg" width=100% height=100%>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-md-4 col-lg-2">
+					<div class="card my-1">
+						<div class="card-body">
+							<img src="./images/mou4.jpg" width=100% height=100%>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-md-4 col-lg-2">
+					<div class="card my-1">
+						<div class="card-body">
+							<img src="./images/mou5.jpg" width=100% height=100%>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-md-4 col-lg-2">
+					<div class="card my-1">
+						<div class="card-body">
+							<img src="./images/mou6.jpg" width=100% height=100%>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a href="./mous.html"> Explore all mou's </a>
+		</div>
+		
+		<div class="container mb-5">
+			<div class="row">
+				<div class="col-12 col-sm-6 col-lg-4">
+							<table class="table table-sm table-striped border">
+								<tr><th><a href="#"> Annual Reports </a></th></tr>
+								<tr><th><a href="#"> Anti-Ragging Cell </a></th></tr>
+								<tr><th><a href="#"> IQAC </a></th></tr>
+								<tr><th><a href="#"> E-governance </a></th></tr>
+								<tr><th><a href="#"> Gender Equality </a></th></tr>
+								<tr><th><a href="#"> ISO </a></th></tr>
+								<tr><th><a href="#"> Online Grievance & Redressal </a></th></tr>
+								<tr><th><a href="#"> News & Media </a></th></tr>
+							</table>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-4">
+					<div class="card">
+						<div class="card-body pt-0 pd-2 px-0">
+							<h2 class="bg-danger text-white"> Exam cell </h2>
+							<table class="table table-sm table-striped border table-light">
+								<tr><td><a href="#"> NOTIFICATION FOR Special Supplementary Examinations to be conducted in March, 2024 I, II MBA & MCA - I,II,III & IV SEMESTERS I M.TECH/MPHARMACY – I , II SEMESTERS FOR CANDIDATES ADMITTED IN 2019 & PRIOR BATCHES </a></td></tr>
+								<tr><td><a href="#"> NOTIFICATION FOR Special Supplementary Examinations to be conducted in March, 2024 I, II, III & IV B.TECH – I & II SEMESTERS FOR CANDIDATES ADMITTED IN OR, NR, RR, R05, R07, R10, R13 & R16 REGULATIONS </a></td></tr>
+							</table>
+						</div>	
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-4">
+					<div class="card">
+						<div class="card-body pt-0 pd-2 px-0">
+							<h2 class="bg-primary text-white"> Placement info </h2>
+							<table class="table table-sm table-striped border table-light">
+								<tr><td><a href="#">  </a></td></tr>
+							</table>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="gallery" class="carousel slide" data-ride="carousel" data-interval="5000">
+			
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div class="container">
+						<div class="row">
+							<div class="col-12 col-md-6 col-lg-3">
+								<div class="card border-0">
+									<div class="card-body">
+										<img src="./images/galleryimg1.jpg" width=100% height=100%>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-6 col-lg-3">
+								<div class="card border-0">
+									<div class="card-body">
+										<img src="./images/galleryimg2.jpg" width=100% height=100%>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-6 col-lg-3">
+								<div class="card border-0">
+									<div class="card-body">
+										<img src="./images/galleryimg3.jpg" width=100% height=100%>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-6 col-lg-3">
+								<div class="card border-0">
+									<div class="card-body">
+										<img src="./images/galleryimg4.jpg" width=100% height=100%>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="container">
+						<div class="row">
+							<div class="col-12 col-md-6 col-lg-3">
+								<div class="card border-0">
+									<div class="card-body">
+										<img src="./images/galleryimg5.jpg" width=100% height=100%>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-6 col-lg-3">
+								<div class="card border-0">
+									<div class="card-body">
+										<img src="./images/galleryimg6.jpg" width=100% height=100%>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-6 col-lg-3">
+								<div class="card border-0">
+									<div class="card-body">
+										<img src="./images/galleryimg7.jpg" width=100% height=100%>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-6 col-lg-3">
+								<div class="card border-0">
+									<div class="card-body">
+										<img src="./images/galleryimg8.jpg" width=100% height=100%>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<a class="carousel-control-prev" href="#gallery" data-slide="prev">
+				<span class="bi bi-arrow-left-circle-fill text-dark"></span>
+			</a>
+			<a class="carousel-control-next" href="#gallery" data-slide="next">
+				<span class="bi bi-arrow-right-circle-fill text-dark"></span>
+			</a>
+		</div>
+		
+		<footer>
+			<div class="footerHeroImage">
+				<div class="container-fluid">
+					<div class="row bg-danger text-light py-3">
+						<div class="col-sm-12">
+							<center> <h2> Further You Need Any Information Please Be <a href="./contactus.html" class="text-light"><u> Contact Us </u></a> </h2> </center>
+						</div>
+					</div>
+				</div>
+				
+				<div class="container border-0 footerContainer">
+					<div class="row text-light p-2">
+						<div class="col-12 col-sm-6 col-lg-3">
+							<div class="card border-0" style="background-color: rgba(255, 255, 255, 0);">
+								<div class="card-header border-0">
+									<img src="./images/logo.png" width=100% height=100%>
+								</div>
+								<div class="card-body border-0">
+									<p> <center>
+										SRK Institute of Technology, located in Vijayawada in the heart of Andhra Pradesh
+									</center> </p>
+								</div>
+								<div class="card-footer border-0">
+									<center>
+									<table class="table table-borderless table-responsive text-light table-striped">
+										<tr><td colspan="2"> <h4> Opening Hours </h4> </td></tr>
+										<tr>
+											<td> Mon - sat </td>
+											<td> 09am - 05pm </td>
+										</tr>
+										<tr>
+											<td> Sunday </td>
+											<td> Closed </td>
+										</tr>
+									</table>
+									</center>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-3">
+							<table class="table table-borderless text-light">
+								<tr><th> <h4>DEPARTMENTS</h4> </th></tr>
+								<tr><td> -<a href="#" class="text-light"> Civil </a> </td></tr>
+								<tr><td> -<a href="#" class="text-light"> CSE </a> </td></tr>
+								<tr><td> -<a href="#" class="text-light"> CSE(AI & ML) </a> </td></tr>
+								<tr><td> -<a href="#" class="text-light"> CSE(Data Science) </a> </td></tr>
+								<tr><td> -<a href="#" class="text-light"> ECE </a> </td></tr>
+								<tr><td> -<a href="#" class="text-light"> EEE </a> </td></tr>
+								<tr><td> -<a href="#" class="text-light"> IT </a> </td></tr>
+								<tr><td> -<a href="#" class="text-light"> Mech </a> </td></tr>
+								<tr><td> -<a href="#" class="text-light"> Science and Humanities </a> </td></tr>
+								<tr><td> -<a href="#" class="text-light"> Master of Computer Applications </a> </td></tr>
+								<tr><td> -<a href="#" class="text-light"> Business Administration </a> </td></tr>
+							</table>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-3">
+							<table class="table table-borderless text-light">
+								<tr><td> <h4>ADMISSIONS</h4> </td></tr>
+								<tr><td> -<a href="#" class="text-light"> Undergraduate </a> </td></tr>
+								<tr><td> -<a href="#" class="text-light"> Graduate </a> </td></tr>
+								<tr><td> -<a href="#" class="text-light"> Business </a> </td></tr>
+								<tr><td> <h4>CAMPUS LIFE & SAFETY</h4> </td></tr>
+								<tr><td> -<a href="#" class="text-light"> Student Associations </a> </td></tr>
+								<tr><td> -<a href="#" class="text-light"> Grievance Redressal System </a> </td></tr>
+								<tr><td> -<a href="#" class="text-light"> Anti Ragging Cell </a> </td></tr>
+								<tr><td> -<a href="#" class="text-light"> Women Grievance Cell </a> </td></tr>
+							</table>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-3">
+							<table class="table table-borderless text-light">
+								<tr><td> <h4>ONLINE LEARNING</h4> </td></tr>
+								<tr><td> -<a href="#" class="text-light"> SRKExcel </a> </td></tr>
+								<tr><td> <h4>TRAINING & PLACEMENT</h4> </td></tr>
+								<tr><td> -<a href="#" class="text-light"> Training and Development </a> </td></tr>
+								<tr><td> -<a href="#" class="text-light"> Placements </a> </td></tr>
+								<tr><td> -<a href="#" class="text-light"> Collaborations </a> </td></tr>
+								<tr><td> <h4>Email</h4> </td></tr>
+								<tr><td> -<a href="#" class="text-light"> Email : [email protected] </a> </td></tr>
+							</table>
+						</div>
+					</div>
+					<div class="row border border-left-0 border-right-0 border-light py-3 mb-3">
+						<div class="col-12">
+							<center>
+							<p class="text-light">
+								<a href="#" class="text-light"> SRKIT Home </a> |
+								<a href="#" class="text-light"> AICTE - APPROVALS </a> |
+								<a href="#" class="text-light"> AUDIT REPORTS </a> |
+								<a href="#" class="text-light"> NIRF </a> |
+								<a href="#" class="text-light"> Maps & Directions </a> |
+								<a href="#" class="text-light"> Search SRKIT </a> |
+								<a href="#" class="text-light"> Terms of Use </a> |
+								<a href="#" class="text-light"> Emergency Info </a>
+							</p>
+							</center>
+						</div>
+					</div>
+					<div class="row pt-3 pb-3">
+						<div class="col-12 text-light">
+							<center>
+								EAMCET/ICET Code :<img src="./images/eamcet_code.png">
+							</center>
+						</div>
+					</div>
+					<div class="row py-3">
+						<div class="col-12 text-light">
+							<center>
+								Copyright © 2025 SRKIT. SRK Insitute of Technology, Enikepadu 521108
+							</center>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+	</body>
+</html>
