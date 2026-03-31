@@ -8,7 +8,7 @@ Not all the sections from the original website are implemented in my clone.
 From home page, various other pages can be accessed through navbar and other elements.
 Obviously all links mentioned in the website won't work. They are placed to act as placeholders.
 
-To test the responsiveness of the website click "ctrl+shift+i" on your keyword to open dev tools console.
+To test the responsiveness of the website click "ctrl+shift+i" on your keyboard to open dev tools console.
 Here, you can check the website's reponsiveness by changing the screen size/resolution.
 Comparing the responsiveness of the websites will let you understand the difference between the original website and my clone.
 
